@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  //url      = env("DATABASE_URL")
+}
+
+enum GuestRole {
+  HOLDER
+  GUEST
+}
+
+model Registration {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  /// Quem é o titular (responsável pelo grupo)
+  holderName  String
+  holderPhone String
+
+  /// Pessoas vinculadas a este cadastro (inclui o próprio titular como um Guest com role=HOLDER)
+  guests Guest[]
+
+  @@unique([holderPhone]) // impede 2 cadastros com o mesmo telefone (se quiser permitir, me avisa e removo)
+  @@index([createdAt])
+}
+
+model Guest {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+
+  registrationId String
+  registration   Registration @relation(fields: [registrationId], references: [id], onDelete: Cascade)
+
+  name  String
+  phone String? // telefone opcional para convidados extras
+  role  GuestRole
+
+  @@index([registrationId])
+  @@index([role])
+}
