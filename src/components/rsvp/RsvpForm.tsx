@@ -48,7 +48,7 @@ export function RsvpForm() {
 
   const [state, action, pending] = useActionState(
     createRsvpAction,
-    initialState
+    initialState,
   );
 
   // Keep companions array length in sync
@@ -147,11 +147,6 @@ export function RsvpForm() {
 
         {/* VALOR REAL (só dígitos) enviado na action */}
         <input name="phone" type="hidden" value={holderPhone} />
-
-        <p className="mt-2 text-xs text-white/40">
-          Usamos seu número só pra evitar duplicidade e, se precisar, falar com
-          você.
-        </p>
       </div>
 
       {/* Quantidade */}
@@ -160,16 +155,36 @@ export function RsvpForm() {
           Quantas pessoas?{" "}
           <span className="text-white/40">(incluindo você)</span>
         </label>
-        <input
-          name="qty"
-          disabled={pending}
-          type="number"
-          min={1}
-          max={10}
-          value={qty}
-          onChange={(e) => setQty(clampInt(Number(e.target.value), 1, 10))}
-          className={fieldClass}
-        />
+
+        {/* Stepper */}
+        <div className="mt-2 flex items-center gap-3">
+          <button
+            type="button"
+            disabled={pending || qty <= 1}
+            onClick={() => setQty((q) => clampInt(q - 1, 1, 10))}
+            className="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 bg-black/40 text-white/80 hover:bg-black/55 disabled:opacity-40 disabled:cursor-not-allowed"
+            aria-label="Diminuir quantidade"
+          >
+            -
+          </button>
+
+          <div className="flex h-12 flex-1 items-center justify-center rounded-xl border border-white/10 bg-black/40 px-4 text-base font-semibold text-white">
+            {qty}
+          </div>
+
+          <button
+            type="button"
+            disabled={pending || qty >= 10}
+            onClick={() => setQty((q) => clampInt(q + 1, 1, 10))}
+            className="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 bg-black/40 text-white/80 hover:bg-black/55 disabled:opacity-40 disabled:cursor-not-allowed"
+            aria-label="Aumentar quantidade"
+          >
+            +
+          </button>
+        </div>
+
+        {/* Valor real enviado na action */}
+        <input name="qty" type="hidden" value={qty} />
       </div>
 
       {/* Companion fields */}
@@ -179,9 +194,6 @@ export function RsvpForm() {
             <h3 className="text-sm font-semibold text-white">
               Acompanhantes ({companionCount})
             </h3>
-            <span className="text-xs text-white/40">
-              Nome + WhatsApp (opcional)
-            </span>
           </div>
 
           <div className="mt-4 grid gap-4">
@@ -217,7 +229,7 @@ export function RsvpForm() {
 
                   <div>
                     <label className="mb-1 block text-xs text-white/60">
-                      WhatsApp (opcional)
+                      WhatsApp
                     </label>
 
                     {/* VISUAL mascarado */}
