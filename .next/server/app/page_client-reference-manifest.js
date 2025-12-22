@@ -53,7 +53,7 @@ globalThis.__RSC_MANIFEST["/page"] = {
         name: "*",
         chunks: [
           "230",
-          "static/chunks/230-8bbaeba31de99db1.js",
+          "static/chunks/230-9e889ca683174cd2.js",
           "177",
           "static/chunks/app/layout-c83bec87a90c77fb.js",
         ],
@@ -65,7 +65,7 @@ globalThis.__RSC_MANIFEST["/page"] = {
         name: "*",
         chunks: [
           "230",
-          "static/chunks/230-8bbaeba31de99db1.js",
+          "static/chunks/230-9e889ca683174cd2.js",
           "177",
           "static/chunks/app/layout-c83bec87a90c77fb.js",
         ],
@@ -76,7 +76,7 @@ globalThis.__RSC_MANIFEST["/page"] = {
       name: "*",
       chunks: [
         "230",
-        "static/chunks/230-8bbaeba31de99db1.js",
+        "static/chunks/230-9e889ca683174cd2.js",
         "177",
         "static/chunks/app/layout-c83bec87a90c77fb.js",
       ],
@@ -88,7 +88,7 @@ globalThis.__RSC_MANIFEST["/page"] = {
         name: "*",
         chunks: [
           "230",
-          "static/chunks/230-8bbaeba31de99db1.js",
+          "static/chunks/230-9e889ca683174cd2.js",
           "177",
           "static/chunks/app/layout-c83bec87a90c77fb.js",
         ],

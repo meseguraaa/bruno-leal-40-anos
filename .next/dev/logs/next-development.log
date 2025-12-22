@@ -1,0 +1,449 @@
+[00:00:01.870] Server  LOG     ✓ Ready in 1531ms
+[00:00:07.222] Server  LOG     ○ Compiling / ...
+[00:00:09.686] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:33.496] Browser ERROR   ./src/app/page.tsx
+Error:   × Expected '</', got 'return'
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:50:1]
+ 47 │ import { RsvpForm } from "@/components/rsvp/RsvpForm";
+ 48 │ 
+ 49 │ export default function HomePage() {
+ 50 │   return (
+    ·   ──────
+ 51 │     <>
+ 52 │       <div id="top" />
+ 53 │       <TopNav />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:00:33.671] Server  ERROR   ⨯ ./src/app/page.tsx
+Error:   × Expected '</', got 'return'
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:50:1]
+ 47 │ import { RsvpForm } from "@/components/rsvp/RsvpForm";
+ 48 │ 
+ 49 │ export default function HomePage() {
+ 50 │   return (
+    ·   ──────
+ 51 │     <>
+ 52 │       <div id="top" />
+ 53 │       <TopNav />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:00:33.725] Browser ERROR   ./src/app/page.tsx
+Error:   × Expected '</', got 'return'
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:50:1]
+ 47 │ import { RsvpForm } from "@/components/rsvp/RsvpForm";
+ 48 │ 
+ 49 │ export default function HomePage() {
+ 50 │   return (
+    ·   ──────
+ 51 │     <>
+ 52 │       <div id="top" />
+ 53 │       <TopNav />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:00:36.500] Server  ERROR   ⨯ ./src/app/page.tsx
+Error:   × Expected '</', got 'return'
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:50:1]
+ 47 │ import { RsvpForm } from "@/components/rsvp/RsvpForm";
+ 48 │ 
+ 49 │ export default function HomePage() {
+ 50 │   return (
+    ·   ──────
+ 51 │     <>
+ 52 │       <div id="top" />
+ 53 │       <TopNav />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:00:36.565] Browser ERROR   ./src/app/page.tsx
+Error:   × Expected '</', got 'return'
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:50:1]
+ 47 │ import { RsvpForm } from "@/components/rsvp/RsvpForm";
+ 48 │ 
+ 49 │ export default function HomePage() {
+ 50 │   return (
+    ·   ──────
+ 51 │     <>
+ 52 │       <div id="top" />
+ 53 │       <TopNav />
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:00:37.199] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expected '</', got 'return'
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:50:1]
+ 47 │ import { RsvpForm } from "@/components/rsvp/RsvpForm";
+ 48 │ 
+ 49 │ export default function HomePage() {
+ 50 │   return (
+    ·   ──────
+ 51 │     <>
+ 52 │       <div id="top" />
+ 53 │       <TopNav />
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[00:00:37.313] Browser ERROR   ./src/app/page.tsx
+Error:   × Expected '</', got 'return'
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:50:1]
+ 47 │ import { RsvpForm } from "@/components/rsvp/RsvpForm";
+ 48 │ 
+ 49 │ export default function HomePage() {
+ 50 │   return (
+    ·   ──────
+ 51 │     <>
+ 52 │       <div id="top" />
+ 53 │       <TopNav />
+    ╰────
+
+Caused by:
+    Syntax Error
+[00:00:38.639] Server  LOG     ○ Compiling /_error ...
+[00:00:41.739] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:42.245] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:43.115] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:43.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:21.546] Server  ERROR   ⨯ ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:21.591] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:22.046] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[00:01:22.170] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+[00:01:22.302] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:22.582] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:22.873] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:23.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:41.400] Server  ERROR   ⨯ ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:41.408] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:41.713] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[00:01:41.816] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+[00:01:48.799] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:48.927] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:48.927] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:49.012] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:49.086] Server  ERROR   ⨯ ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:49.091] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:49.324] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[00:01:49.471] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+[00:01:53.891] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:54.027] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:54.165] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:54.165] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:54.264] Server  ERROR   ⨯ ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:54.274] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+[00:01:54.638] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[00:01:54.739] Browser ERROR   ./src/app/page.tsx
+Error:   × Unexpected token. Did you mean `{'>'}` or `&gt;`?
+    ╭─[/Users/brunoleal/Documents/Site/src/app/page.tsx:59:1]
+ 56 │             height="380"
+ 57 │             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+ 58 │             loading="lazy"
+ 59 │           />
+    ·            ▲
+ 60 │         </section>
+ 61 │ 
+ 62 │         {/* DETALHES */}
+    ╰────
+
+Caused by:
+    Syntax Error
+[00:01:59.255] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:59.391] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:00.082] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:00.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.791] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:04.151] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

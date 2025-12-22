@@ -4,8 +4,8 @@
   lowPriorityFiles: [],
   rootMainFiles: [
     "static/chunks/webpack-ecab85fbba281cab.js",
-    "static/chunks/4bd1b696-f2999b4e17b2fd5f.js",
-    "static/chunks/794-e3b4934481a9d200.js",
+    "static/chunks/4bd1b696-67e30520d621c4dd.js",
+    "static/chunks/794-9353bb3ab9a73e90.js",
     "static/chunks/main-app-938c22104d956da3.js",
   ],
   rootMainFilesTree: {},
