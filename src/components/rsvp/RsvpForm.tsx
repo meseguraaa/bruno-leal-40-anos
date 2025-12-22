@@ -88,7 +88,7 @@ export function RsvpForm() {
   }, [state.ok]);
 
   const fieldClass =
-    "w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-sm text-white placeholder:text-white/30 focus:border-violet-400 focus:outline-none disabled:opacity-60 disabled:cursor-not-allowed";
+    "w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-base text-white placeholder:text-white/30 focus:border-violet-400 focus:outline-none disabled:opacity-60 disabled:cursor-not-allowed";
 
   return (
     <form
