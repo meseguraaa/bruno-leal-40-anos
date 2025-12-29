@@ -57,6 +57,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   viewport?: any;
 };
 
+// Validate ../../../src/app/convidados/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/convidados">> = Specific;
+  const handler = {} as typeof import("../../../src/app/convidados/page.js");
+  type __Check = __IsExpected<typeof handler>;
+  // @ts-ignore
+  type __Unused = __Check;
+}
+
 // Validate ../../../src/app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific;
