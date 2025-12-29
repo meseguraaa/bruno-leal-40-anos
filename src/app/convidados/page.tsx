@@ -1,6 +1,9 @@
 // src/app/convidados/page.tsx
 import { prisma } from "@/lib/prisma";
 
+// 🔁 Atualiza automaticamente a cada 5 segundos
+export const revalidate = 5;
+
 export const metadata = {
   title: "Convidados confirmados",
   robots: { index: false, follow: false },
@@ -30,6 +33,10 @@ export default async function ConvidadosPage() {
           <br />
           <span className="text-violet-400">{total} pessoa(s)</span>
         </h1>
+
+        <p className="mt-4 max-w-2xl text-pretty text-sm text-white/60 md:text-base">
+          Atualiza automaticamente. Ordem alfabética. Sem frescura.
+        </p>
 
         <div className="mt-8 space-y-2">
           {guests.map((g, idx) => (

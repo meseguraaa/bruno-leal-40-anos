@@ -112,3 +112,5 @@ Caused by:
 [00:39:04.303] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
 [00:39:04.361] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
 [00:39:05.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:34.143] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:39.411] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
